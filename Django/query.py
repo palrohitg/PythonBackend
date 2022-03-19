@@ -18,7 +18,6 @@
     Book.objects.bulk_create(books) // 100 records at onces.
     
 '''
-# https://betterprogramming.pub/django-select-related-and-prefetch-related-f23043fd635d
 
 class Command():
 
