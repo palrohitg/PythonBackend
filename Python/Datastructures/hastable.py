@@ -1,0 +1,4 @@
+'''
+    HASTABLE IMPLEMENTATION IN PYTHON: 
+    
+'''
