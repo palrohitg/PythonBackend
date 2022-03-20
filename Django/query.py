@@ -16,10 +16,15 @@
             books.append(Book(name = f"book{counters}", price=random.randint(50, 300) pubisher=publishers))
 
     Book.objects.bulk_create(books) // 100 records at onces.
+
+
+- select_related and prefetch related 
+
     
 '''
 
 class Command():
-
+ 
     def handle(self, *args, **kwargs):
-        pass
+        name = True
+        first_value = True
